@@ -26,7 +26,7 @@
     </b>
   </ol>
 
-
+<hr></hr>
 <h2>Objective: Build a classification model that predicts heart disease in a subject.</h2>(note the target column to predict is 'TenYearCHD' where CHD = Coronary heart disease) 
 
 <h3>Please do the following steps: 
