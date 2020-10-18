@@ -1,48 +1,42 @@
-#About the dataset:
+<h1>A Machine Learning Model to predict Heart Diseases with the help of Framingham Data Set</h1>
 
-The dataset is publically available on the Kaggle website, and it is from an ongoing ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information. It includes over 4,240 records and 15 attributes.
+<h3>About the dataset:</h3>
 
-Attributes:
+<b>The dataset is publically available on the Kaggle website, and it is from an ongoing ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information. It includes over 4,240 records and 15 attributes.</b>
+<br></br>
+<hr></hr>
+<h3>Attributes</h3>:
+<hr></hr>
+<ol>
+    <li>sex: male(0) or female(1);(Nominal)</li > 
+    <li>age: age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)</li >
+    <li>currentSmoker: whether or not the patient is a current smoker (Nominal)</li >
+    <li>cigsPerDay: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarretts, even half a           cigarette.)</li >
+    <li>BPMeds: whether or not the patient was on blood pressure medication (Nominal)</li >
+      <li>prevalentStroke: whether or not the patient had previously had a stroke (Nominal)</li >
+      <li>prevalentHyp: whether or not the patient was hypertensive (Nominal)</li >
+      <li>diabetes: whether or not the patient had diabetes (Nominal)</li >
+      <li>totChol: total cholesterol level (Continuous)</li >
+      <li>sysBP: systolic blood pressure (Continuous)</li >
+      <li>diaBP: diastolic blood pressure (Continuous)</li >
+      <li>BMI: Body Mass Index (Continuous)</li >
+      <li>heartRate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number             of possible values.)</li >
+      <li>glucose: glucose level (Continuous)</li >
+      <li>10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”) - Target Variable</li >
+  </ol>
 
-sex: male(0) or female(1);(Nominal)
 
-age: age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+<h2>Objective: Build a classification model that predicts heart disease in a subject.</h2>(note the target column to predict is 'TenYearCHD' where CHD = Coronary heart disease) 
 
-currentSmoker: whether or not the patient is a current smoker (Nominal)
+<h3>Please do the following steps: 
+  <ul>
+    <li>Read the file and display colum<li>ns.</li>
+    <li>Handle missing values, Outliers and Duplicate Data</li>
+    <li>Calculate basic statistics of t<li>he data (count, mean, std, etc) and exploratory analysts and describe your observations.</li>
+    <li>Select columns that will be pro<li>bably important to predict heart disease.</li>
+    <li>If you remove columns explain why you removed those.</li>
+    <li>Create training and testing sets (use 60% of the data for the training and reminder for testing).</li>
+    <li>Build a machine learning model to predict TenYearCHD</li>
+    <li>Evaluate the model (f1 score, Acuuracy, Precision ,Recall and Confusion Matrix)</li>
+    <li>Conclude your findings (Model which is giving best f1 score and why)</li>
 
-cigsPerDay: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarretts, even half a cigarette.)
-
-BPMeds: whether or not the patient was on blood pressure medication (Nominal)
-
-prevalentStroke: whether or not the patient had previously had a stroke (Nominal)
-
-prevalentHyp: whether or not the patient was hypertensive (Nominal)
-
-diabetes: whether or not the patient had diabetes (Nominal)
-
-totChol: total cholesterol level (Continuous)
-
-sysBP: systolic blood pressure (Continuous)
-
-diaBP: diastolic blood pressure (Continuous)
-
-BMI: Body Mass Index (Continuous)
-
-heartRate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
-
-glucose: glucose level (Continuous)
-
-10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”) - Target Variable
-
-Objective: Build a classification model that predicts heart disease in a subject. (note the target column to predict is 'TenYearCHD' where CHD = Coronary heart disease) 
-
-Please do the following steps: 
-Read the file and display columns.
-Handle missing values, Outliers and Duplicate Data
-Calculate basic statistics of the data (count, mean, std, etc) and exploratory analysts and describe your observations.
-Select columns that will be probably important to predict heart disease.
-If you remove columns explain why you removed those.
-Create training and testing sets (use 60% of the data for the training and reminder for testing).
-Build a machine learning model to predict TenYearCHD
-Evaluate the model (f1 score, Acuuracy, Precision ,Recall and Confusion Matrix)
-Conclude your findings (Model which is giving best f1 score and why)
