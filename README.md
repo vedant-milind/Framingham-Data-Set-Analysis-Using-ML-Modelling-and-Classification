@@ -29,9 +29,9 @@
 <hr></hr>
 <h2>Objective: Build a classification model that predicts heart disease in a subject.</h2>(note the target column to predict is 'TenYearCHD' where CHD = Coronary heart disease) 
 
-<h3>Please do the following steps: 
+<h3>Please do the following steps:</h3>
 <br></br>
-<ul>
+<ul><h4>
     <li>Read the file and display columns.</li>
     <li>Handle missing values, Outliers and Duplicate Data</li>
     <li>Calculate basic statistics of the data (count, mean, std, etc) and exploratory analysts and describe your observations.</li>
@@ -41,4 +41,5 @@
     <li>Build a machine learning model to predict TenYearCHD</li>
     <li>Evaluate the model (f1 score, Acuuracy, Precision ,Recall and Confusion Matrix)</li>
     <li>Conclude your findings (Model which is giving best f1 score and why)</li>
+    </h4>
 
