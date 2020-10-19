@@ -34,7 +34,7 @@
 <ul>
     <li>Read the file and display columns.</li>
     <li>Handle missing values, Outliers and Duplicate Data</li>
-    <li>Calculate basic statistics of t<li>he data (count, mean, std, etc) and exploratory analysts and describe your observations.</li>
+    <li>Calculate basic statistics of the data (count, mean, std, etc) and exploratory analysts and describe your observations.</li>
     <li>Select columns that will be pro<li>bably important to predict heart disease.</li>
     <li>If you remove columns explain why you removed those.</li>
     <li>Create training and testing sets (use 60% of the data for the training and reminder for testing).</li>
